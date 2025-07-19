@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohith Xavier Kuruvilla - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav-bar">
+    <a href="#hero" class="logo">Rohith</a>
+    <nav>
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+      <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+      <a href="#hobbies"><i class="fas fa-heart"></i> Hobbies</a>
+      <a href="#languages"><i class="fas fa-language"></i> Languages</a>
+      <a href="#aspirations"><i class="fas fa-star"></i> Aspirations</a>
+      <a href="#" class="cta-button" id="getLazyBtn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero-section">
+      <h1 class="title">Rohith Xavier Kuruvilla</h1>
+      <p class="subtitle">Aspiring AI Implementer and Data Analyst | VIT CSE</p>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>Welcome to my personal website! I'm thrilled to share a glimpse into who I am.</p>
+      <p>I'm Rohith Xavier Kuruvilla, and I'm studying Computer Science Engineering at VIT Vellore. I come from Kerala, where the scenery is breathtaking. I absolutely love coding, especially when it comes to making things work behind the scenes and teaching computers to learn on their own. It's like solving puzzles, and I'm always eager to learn more about how it all fits together.</p>
+      <p>I have provided an overview of myself, including contact details, educational background, skills, hobbies, languages, and aspirations.</p>
+      <p>I'm excited to share a glimpse of my journey with you.</p>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Secondary Education</strong> at The Choice School - Passed (96.8%)</li>
+        <li><strong>Higher Secondary Education</strong> at The Choice School - Passed (96.6%)</li>
+        <li><strong>BTech: CSE</strong> at VIT Vellore - Ongoing (Seventh semester) (8.88 CGPA)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Java, C, C++, Python</li>
+        <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Data Structures & Algorithms</strong></li>
+        <li><strong>AI/ML Fundamentals</strong></li>
+        <li><strong>Database Management</strong></li>
+        <li><strong>Interpersonal & Communication Skills</strong></li>
+      </ul>
+    </section>
+
+    <section id="hobbies" class="card">
+      <h2>Hobbies</h2>
+      <ul>
+        <li><strong>Reading:</strong> Tech articles, Novels</li>
+        <li><strong>Fitness:</strong> Gym, Sports</li>
+        <li><strong>Travelling:</strong> Exploring new places</li>
+        <li><strong>Sports:</strong> Cricket, Basketball</li>
+        <li><strong>Music:</strong> Playing drums</li>
+        <li><strong>Coding Projects:</strong> Personal tech experiments</li>
+      </ul>
+    </section>
+
+    <section id="languages" class="card">
+      <h2>Languages Known</h2>
+      <ul>
+        <li><strong>English:</strong> Highly Proficient</li>
+        <li><strong>Malayalam:</strong> Native Proficiency</li>
+        <li><strong>Hindi:</strong> Conversational</li>
+        <li><strong>French:</strong> Basic Knowledge</li>
+      </ul>
+    </section>
+
+    <section id="aspirations" class="card">
+      <h2>Aspirations</h2>
+      <p>I aspire to become a backend developer skilled in all the essential coding languages. My ultimate goal is to secure a highly respected position in a software company as a senior software developer.</p>
+      <p>I'm passionate about diving into the intricate workings of technology and crafting efficient solutions that power the backend of software applications.</p>
+      <p>To achieve my goal, I'm committed to learning and mastering fundamental coding languages like Java, Python, C++, and others.</p>
+      <p>I envision myself taking on leadership roles within a software firm, guiding teams towards innovative solutions and driving projects to success.</p>
+      <p>Through dedication, hard work, and a relentless pursuit of excellence, I'm confident that I can achieve my aspirations and make significant contributions to the software industry as a senior software developer.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:rohith.kuruvilla.p@gmail.com" class="contact-link">rohith.kuruvilla.p@gmail.com</a></li>
+        <li><strong>Academic Email:</strong> <a href="mailto:rohith.xavier2022@vitstudent.ac.in" class="contact-link">rohith.xavier2022@vitstudent.ac.in</a></li>
+        <li>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/Rohith-X-Kuruviulla-P" target="_blank">
+            <img src="git.png" alt="GitHub Profile" id="contimg">
+          </a>
+        </li>
+        <li>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/rohith-xavier-kuruvilla-7151aa2a9/" target="_blank">
+            <img src="lin.png" alt="LinkedIn Profile" id="contimg">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Send Me a Message</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" required placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" required placeholder="What's this about?">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" required placeholder="Your message here..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    © 2025 Rohith Xavier Kuruvilla | Designed by Rohith
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
