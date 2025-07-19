@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const subject = document.getElementById('subject').value;
     const message = document.getElementById('message').value;
 
-    const mailtoLink = `mailto:rohithvitcse@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name}\n\n${message}`)}`;
+    const mailtoLink = `mailto:rohith.kuruvilla.p@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name}\n\n${message}`)}`;
     window.location.href = mailtoLink;
     modal.style.display = 'none';
   }
